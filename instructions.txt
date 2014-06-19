@@ -1,0 +1,2 @@
+1. Open a Chrome broswer.
+2. drag the demo's index.html file to the browswer. 

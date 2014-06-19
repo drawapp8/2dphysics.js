@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Box2D MagicSand</title>
+<style type="text/css">
+body {
+	background:black;
+	padding:0;
+	margin:0;
+	font-weight: bold;
+	overflow:hidden;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:32px;
+	color: white;
+	text-align: right;
+	z-index: 1000;
+}
+</style>
+
+<script src="../util.js"></script>
+<script src="Transform.js"></script>
+<script src="MagicSand.js"></script>
+</head>
+
+<body onload="init();">
+
+<div style="position:absolute; left:0px; top:0px">
+    <div id="b2j" class="info" style="background:red; position:absolute; left:   0px; top:0px;  width:720px;">Box2D JavaScript</div>
+    <div id="b2n" class="info" style="background:red; position:absolute; left:   0px; top:0px;  width:720px;">Box2D Native</div>
+	<div          class="info" style="position:absolute; left:   0px; top: 00px; width:230px;">MagicSand</div>
+	<!--<div id="rect" class="info" style="border-width: 1px;border-radius: 0px; border-style: dotted; border-color: #fff8dc; position:absolute; left:   28px; top:260px;  width:664px; height:35px"></div>-->
+	<div          class="info" style="position:absolute; left:   0px; top:50px; width:230px;">Particles:</div>
+	<div id="particles"     class="info" style="position:absolute; left: 200px; top:50px; width:200px;">XX</div>
+	<div          class="info" style="position:absolute; left:   0px; top:90px; width:230px;">Frame Rate:</div>
+	<div id="fps" class="info" style="position:absolute; left: 200px; top:90px; width:200px;">XX</div>
+	<div          class="info" style="position:absolute; left:   0px; top:130px; width:230px;">Sim Time:</div>
+	<div id="sim" class="info" style="position:absolute; left: 200px; top:130px; width:200px;">XX</div>
+	<canvas id="canvas" style="position:absolute; left:0px; top:0px;" width="720" height="1100"></canvas>
+</div>
+</body>
+
+</html>
